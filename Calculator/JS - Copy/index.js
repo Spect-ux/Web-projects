@@ -3,6 +3,7 @@ const operator = document.getElementsByClassName("operator-btn");
 let runningTotal = display.value;
 let pendingOperator = null;
 let currentNumber = 0;
+let smallDisplay = document.getElementById("smallDisplay");
 
 function appendToDisplay(input){
 
@@ -11,6 +12,7 @@ function appendToDisplay(input){
     }
     else{
         display.value += input;
+        smallDisplay.textContent += input;
         return input;
     }
 }
@@ -48,14 +50,22 @@ function chooseOperator(op){
 
         
     }
+    smallDisplay.textContent += ' ' + op + ' ';
     pendingOperator = op;
-    clearDisplay();
+    clearEntry();
 }
 
 window.chooseOperator = chooseOperator;
 
+function clearEntry(){
+    display.value = "";
+}
+
+window.clearEntry = clearEntry;
+
 function clearDisplay(){
     display.value = "";
+    smallDisplay.textContent = ""
 
 }
 
@@ -83,6 +93,7 @@ function calculate(){
         runningTotal = runningTotal / currentNumber;
     }
     display.value = runningTotal;
+    smallDisplay.textContent += ' = ' + runningTotal;
     pendingOperator = null;
 
 }
