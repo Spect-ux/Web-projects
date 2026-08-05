@@ -1,13 +1,13 @@
-C++-and-Py-Projects
+Web Projects
 
-This repository was created to keep me and others busy building projects with C++ and Python.
+This repository was created to keep me busy building projects with HTML/CSS and JS.
 It contains a collection of projects ranging from simple terminal programs to larger interactive applications designed to improve programming skills and problem-solving abilities.
 
 Whether you're just starting out or looking for something new to build, this repository aims to provide practical projects that help you learn by doing.
 
 📌 Goals of This Repository
 
-Practice and improve C++ and Python programming
+Practice and improve JS scripting
 
 Build real, working projects
 
@@ -21,9 +21,9 @@ Encourage others to contribute and collaborate
 
 Projects in this repository may include:
 
-🖥️ Terminal Applications
+🖥️ Terminal and Web
 
-Simple command-line tools and games.
+Simple command-line and Web tools and games.
 
 Examples:
 
@@ -77,53 +77,11 @@ AI experiments
 
 Performance comparisons between C++ and Python
 
-🚀 Who This Is For
-
-This repository is useful for:
-
-Beginners learning C++ or Python
-
-Students looking for practice projects
-
-Developers wanting small coding challenges
-
-Anyone who wants to stay sharp by building things
-
-📁 Project Structure
-
-Projects may be organized like this:
-
-C++-and-Py-Projects
-
-│
-
-├── cpp/
-
-│   ├── calculator/
-
-│   ├── snake_game/
-
-│   └── file_manager/
-
-│
-
-├── python/
-
-│   ├── todo_app/
-
-│   ├── quiz_game/
-
-│   └── password_generator/
-
-│
-
-└── README.md
 
 Each project folder should include:
 
 Source code
 
-Instructions on how to run the project
 
 A short explanation of how it works
 
@@ -143,8 +101,6 @@ Python 3.8+
 
 Some projects may also require additional libraries.
 
-🤝 Contributing
-
 Contributions are welcome!
 
 If you'd like to add a project:
@@ -158,23 +114,3 @@ Add a clear README explaining the project
 Submit a pull request
 
 Project ideas are also welcome.
-
-💡 Future Ideas
-
-Possible projects to add in the future:
-
-Terminal-based chess
-
-File search engine
-
-Markdown parser
-
-Basic HTTP server
-
-Multiplayer terminal game
-
-Simple compiler or interpreter
-
-📜 License
-
-This project is open-source and available under the MIT License.
